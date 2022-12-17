@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 import professionService from "../services/profession.service";
-import qualityService from "../services/quality.service";
 
 const professionSlice = createSlice({
     name: "professions",
